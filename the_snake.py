@@ -129,7 +129,7 @@ def main():
     pygame.init()
     snake = Snake()
     apple = Apple()
-while True:
+    while True:
         clock.tick(SPEED)
         handle_keys(snake)
         snake.update_direction()
